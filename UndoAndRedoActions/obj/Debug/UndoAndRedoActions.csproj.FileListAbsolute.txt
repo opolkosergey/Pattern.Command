@@ -1,0 +1,9 @@
+c:\users\sergey\documents\visual studio 2015\Projects\UndoAndRedoActions\UndoAndRedoActions\bin\Debug\UndoAndRedoActions.exe.config
+c:\users\sergey\documents\visual studio 2015\Projects\UndoAndRedoActions\UndoAndRedoActions\bin\Debug\UndoAndRedoActions.exe
+c:\users\sergey\documents\visual studio 2015\Projects\UndoAndRedoActions\UndoAndRedoActions\bin\Debug\UndoAndRedoActions.pdb
+c:\users\sergey\documents\visual studio 2015\Projects\UndoAndRedoActions\UndoAndRedoActions\obj\Debug\UndoAndRedoActions.csprojResolveAssemblyReference.cache
+c:\users\sergey\documents\visual studio 2015\Projects\UndoAndRedoActions\UndoAndRedoActions\obj\Debug\UndoAndRedoActions.exe
+c:\users\sergey\documents\visual studio 2015\Projects\UndoAndRedoActions\UndoAndRedoActions\obj\Debug\UndoAndRedoActions.pdb
+C:\Users\Sergey\Desktop\UndoAndRedoActions\UndoAndRedoActions\bin\Debug\UndoAndRedoActions.exe.config
+C:\Users\Sergey\Desktop\UndoAndRedoActions\UndoAndRedoActions\obj\Debug\UndoAndRedoActions.exe
+C:\Users\Sergey\Desktop\UndoAndRedoActions\UndoAndRedoActions\obj\Debug\UndoAndRedoActions.pdb
