@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Console;
+using UndoAndRedoActions.Commands;
 
 namespace UndoAndRedoActions
 {
@@ -16,23 +14,28 @@ namespace UndoAndRedoActions
 
             for (int i = 0; i < 10; i++)
             {
-                var command = new AddObjectCommand(list,random.Next(0,20));
+                var command = new AddObjectCommand<int>(list, random.Next(0, 20));
                 command.DoAction();
             }
 
-            list.ForEach(a => Write($"{a} "));
-            WriteLine();
+            list.ForEach(a => Console.Write(string.Format("{0} ", a)));
+            Console.WriteLine();
             
-            var deleteCommand = new DeleteObjectCommand(list.First(),list);
+            var deleteCommand = new DeleteObjectCommand<int>(list.First(), list);
             deleteCommand.DoAction();
 
-            list.ForEach(a => Write($"{a} "));
-            WriteLine();
+            list.ForEach(a => Console.Write(string.Format("{0} ", a)));
+            Console.WriteLine();
 
             CommandsTools.UndoAction();
-            list.ForEach(a => Write($"{a} "));
+            list.ForEach(a => Console.Write(string.Format("{0} ", a)));
+            Console.WriteLine();
 
-            ReadKey();
+            CommandsTools.RedoAction();
+
+            list.ForEach(a => Console.Write(string.Format("{0} ", a)));
+
+            Console.ReadKey();
         }
     }
 }
